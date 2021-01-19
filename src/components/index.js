@@ -1,3 +1,3 @@
 import ListImage from './ListImage';
-
-export {ListImage}
+import NavBar from './NavBar';
+export {ListImage, NavBar}

@@ -1,0 +1,22 @@
+.navbar {
+    background-color: #fbf7eb;
+    padding:20px;
+}
+.navbar-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    width:20%
+}
+
+.logo img.logo {
+    width:150px;
+    height: auto;
+}
+
+.search {
+    width:20%
+}

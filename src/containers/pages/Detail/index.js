@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import axios from 'axios';
 import './Detail.css';
+import { NavBar } from '../../../components';
 
 class Detail extends Component {
     state = {
@@ -30,6 +31,7 @@ class Detail extends Component {
     render(){
         return(
             <div className="container">
+                <NavBar/>
                 <img src={this.state.post.url}></img>
                 <div className="desc">
                     {this.state.post.title}

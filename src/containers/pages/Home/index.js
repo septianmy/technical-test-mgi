@@ -1,6 +1,6 @@
 import React, {Component, Fragment} from 'react'
 import axios from 'axios';
-import { ListImage } from '../../../components';
+import { ListImage, NavBar } from '../../../components';
 import './home.css';
 class Home extends Component {
     state = {
@@ -23,6 +23,7 @@ class Home extends Component {
     render(){
         return(
             <div className="container">
+                <NavBar/>
                 <div className="row">
                 {
                     this.state.data.map(dataImage => {
