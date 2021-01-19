@@ -1,5 +1,7 @@
 import React, {Component} from 'react'
 import axios from 'axios';
+import './Detail.css';
+
 class Detail extends Component {
     state = {
         post : {
@@ -29,6 +31,9 @@ class Detail extends Component {
         return(
             <div className="container">
                 <img src={this.state.post.url}></img>
+                <div className="desc">
+                    {this.state.post.title}
+                </div>
             </div>
         )
     }
