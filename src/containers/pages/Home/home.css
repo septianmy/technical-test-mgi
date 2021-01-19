@@ -1,0 +1,5 @@
+.list-wrapper {
+    width: '80%';
+    background-color: black;
+    flex-direction: row;
+}
